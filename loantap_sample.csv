@@ -1,0 +1,199 @@
+int_rate	installment	grade	sub_grade	emp_title	emp_length	home_ownership	annual_inc	verification_status	issue_d	loan_status	purpose	title	dti	earliest_cr_line	open_acc	pub_rec	revol_bal	revol_util	total_acc	initial_list_status	application_type	mort_acc	pub_rec_bankruptcies	address
+11.44	329.48	B	B4	Marketing	10+ years	RENT	117000	Not Verified	Jan-15	Fully Paid	vacation	Vacation	26.24	Jun-90	16	0	36369	41.8	25	w	INDIVIDUAL	0	0	"0174 Michelle Gateway
+Mendozaberg, OK 22690"
+11.99	265.68	B	B5	Credit analyst 	4 years	MORTGAGE	65000	Not Verified	Jan-15	Fully Paid	debt_consolidation	Debt consolidation	22.05	Jul-04	17	0	20131	53.3	27	f	INDIVIDUAL	3	0	"1076 Carney Fort Apt. 347
+Loganmouth, SD 05113"
+10.49	506.97	B	B3	Statistician	< 1 year	RENT	43057	Source Verified	Jan-15	Fully Paid	credit_card	Credit card refinancing	12.79	Aug-07	13	0	11987	92.2	26	f	INDIVIDUAL	0	0	"87025 Mark Dale Apt. 269
+New Sabrina, WV 05113"
+6.49	220.65	A	A2	Client Advocate	6 years	RENT	54000	Not Verified	Nov-14	Fully Paid	credit_card	Credit card refinancing	2.6	Sep-06	6	0	5472	21.5	13	f	INDIVIDUAL	0	0	"823 Reid Ford
+Delacruzside, MA 00813"
+17.27	609.33	C	C5	Destiny Management Inc.	9 years	MORTGAGE	55000	Verified	Apr-13	Charged Off	credit_card	Credit Card Refinance	33.95	Mar-99	13	0	24584	69.8	43	f	INDIVIDUAL	1	0	"679 Luna Roads
+Greggshire, VA 11650"
+13.33	677.07	C	C3	HR Specialist	10+ years	MORTGAGE	86788	Verified	Sep-15	Fully Paid	debt_consolidation	Debt consolidation	16.31	Jan-05	8	0	25757	100.6	23	f	INDIVIDUAL	4	0	"1726 Cooper Passage Suite 129
+North Deniseberg, DE 30723"
+5.32	542.07	A	A1	Software Development Engineer	2 years	MORTGAGE	125000	Source Verified	Sep-15	Fully Paid	home_improvement	Home improvement	1.36	Aug-05	8	0	4178	4.9	25	f	INDIVIDUAL	3	0	"1008 Erika Vista Suite 748
+East Stephanie, TX 22690"
+11.14	426.47	B	B2	Office Depot	10+ years	RENT	46000	Not Verified	Sep-12	Fully Paid	credit_card	No More Credit Cards	26.87	Sep-94	11	0	13425	64.5	15	f	INDIVIDUAL	0	0	"USCGC Nunez
+FPO AE 30723"
+10.99	410.84	B	B3	Application Architect	10+ years	RENT	103000	Verified	Oct-14	Fully Paid	debt_consolidation	Debt consolidation	12.52	Jun-94	13	0	18637	32.9	40	w	INDIVIDUAL	3	0	"USCGC Tran
+FPO AP 22690"
+16.29	928.4	C	C5	Regado Biosciences	3 years	MORTGAGE	115000	Verified	Apr-12	Fully Paid	debt_consolidation	Debt Consolidation	23.69	Dec-97	13	0	22171	82.4	37	f	INDIVIDUAL	1	0	"3390 Luis Rue
+Mauricestad, VA 00813"
+13.11	337.47	B	B4	Sodexo	2 years	RENT	95000	Verified	Jun-13	Fully Paid	debt_consolidation	Debt Consolidation	12.04	Dec-90	5	1	4702	64.4	26	f	INDIVIDUAL	4	1	"40245 Cody Drives
+Bartlettfort, NM 00813"
+14.64	1207.13	C	C3	Director Bureau of Equipment Inventory	8 years	MORTGAGE	130000	Verified	May-14	Fully Paid	credit_card	Credit card refinancing	12.19	May-84	30	0	81263	18.7	61	w	INDIVIDUAL	4	0	"3126 Sean Dale Apt. 141
+South Matthew, MS 00813"
+9.17	239.1	B	B2	Social Work/Care Manager	7 years	OWN	55000	Not Verified	Dec-15	Fully Paid	debt_consolidation	Debt consolidation	28.21	Apr-95	13	0	17838	54.9	35	w	JOINT	4	0	"4173 David Extension
+West Beckyfort, MS 70466"
+12.29	783.7	C	C1	Regional Counsel	10+ years	MORTGAGE	157000	Verified	Apr-15	Fully Paid	debt_consolidation	Debt consolidation	29.39	Jan-97	17	0	113091	94.9	27	w	INDIVIDUAL	2	0	"3343 Wells Mews
+Shellychester, OR 29597"
+6.62	797.53	A	A2	Pullman Regional Hospital	9 years	MORTGAGE	65000	Verified	Oct-12	Fully Paid	small_business	Business	9.18	May-01	9	0	5140	7.2	35	f	INDIVIDUAL	6	0	"0472 Weber Manors Apt. 660
+Lake Andrew, NH 29597"
+8.39	567.3	A	A5	firefighter	8 years	MORTGAGE	45000	Not Verified	Jul-14	Fully Paid	major_purchase	Major purchase	12.81	Sep-94	5	0	551	11.7	23	w	INDIVIDUAL	4	0	"11629 Sean Hills Suite 614
+Stevenfort, HI 30723"
+21.98	893.11	E	E4	Comcast Corporate office	10+ years	MORTGAGE	72000	Verified	Feb-13	Fully Paid	debt_consolidation	Debt consolidation	18.08	Mar-82	16	0	23603	78.4	22	f	INDIVIDUAL	1	0	"407 Briggs Lodge Suite 778
+West Aprilborough, PA 00813"
+12.29	250.79	C	C1	principal	10+ years	MORTGAGE	81000	Not Verified	Oct-15	Fully Paid	debt_consolidation	Debt consolidation	12.87	Sep-96	6	1	5874	54.9	20	w	INDIVIDUAL	5	1	"487 Jennifer Parkway Suite 940
+Cummingsshire, NH 30723"
+7.9	1063.87	A	A4	Pilot	10+ years	RENT	130580	Verified	Jan-14	Fully Paid	debt_consolidation	Debt consolidation	25.4	Jan-90	16	0	8767	11.9	36	f	INDIVIDUAL	3	0	"254 Mary Ferry
+Port Kirstenborough, CO 70466"
+6.97	617.27	A	A3	Registered Nurse	7 years	MORTGAGE	85000	Not Verified	Mar-16	Fully Paid	debt_consolidation	Debt consolidation	18.8	Mar-00	15	0	24195	55.7	38	w	INDIVIDUAL	1	0	"Unit 8386 Box 5821
+DPO AE 05113"
+6.62	282.48	A	A2	Personal Trainer	< 1 year	RENT	65000	Source Verified	Apr-14	Fully Paid	debt_consolidation	Debt consolidation	10.81	Jan-06	12	0	6448	22.9	23	w	INDIVIDUAL	0	0	"9930 Darryl Hollow Apt. 443
+Staffordmouth, CO 30723"
+13.11	248.05	B	B4	Francis Howell School District	10+ years	MORTGAGE	54800	Not Verified	Jun-13	Fully Paid	debt_consolidation	Debt Consolidation/Home Repairs	7.47	Mar-99	10	0	3240	37.2	36	f	INDIVIDUAL	6	0	"0224 Kenneth Junctions
+Bradystad, SD 05113"
+6.99	129.67	A	A3	midstate steel llc	5 years	OWN	24000	Not Verified	Jun-11	Fully Paid	other	kawasaki jetski	4.8	Oct-06	6	0	0	0	7	f	INDIVIDUAL		0	"54395 Melissa Walks
+Jenniferbury, AL 05113"
+8.39	630.34	A	A5	Office Manager	10+ years	OWN	55000	Source Verified	Oct-14	Fully Paid	debt_consolidation	Debt consolidation	9.23	Jan-03	9	0	21497	43.9	18	f	INDIVIDUAL	5	0	"32520 Shawn Radial Suite 404
+South Tamarafort, FL 22690"
+15.61	174.83	D	D1	Operations Manager	5 years	RENT	75000	Verified	Sep-15	Fully Paid	vacation	Vacation	13.58	May-08	9	0	3120	19.1	26	f	INDIVIDUAL	0	0	"25722 Horn Harbor
+Lauraville, VA 30723"
+11.36	197.47	B	B5	CSU Monterey Bay	2 years	RENT	46680	Not Verified	Apr-10	Charged Off	medical	Medical and Post Graduate Education Expenses	6.56	Oct-03	9	0	4370	40.1	10	f	INDIVIDUAL		0	"44130 Powers Course Suite 880
+East Preston, AZ 30723"
+13.35	284.45	C	C2	Bartender	6 years	RENT	35000	Source Verified	Jun-14	Charged Off	debt_consolidation	Debt consolidation	23.08	Jun-04	6	0	6953	74.8	17	f	INDIVIDUAL	0	0	"Unit 3166 Box 1862
+DPO AE 48052"
+12.12	766.92	B	B3	Anheuser-Busch 	3 years	RENT	80000	Verified	Apr-13	Fully Paid	debt_consolidation	Credit card debt	25.47	Jan-99	18	0	26693	24.6	23	w	INDIVIDUAL	0	0	"5105 Madison Glen Apt. 955
+Charlesport, WI 05113"
+9.99	483.94	B	B1	Teacher	10+ years	MORTGAGE	79000	Verified	Oct-13	Fully Paid	debt_consolidation	concolidation	17.27	Apr-94	13	0	13658	56.7	25	f	INDIVIDUAL	2	0	"10747 Jennifer Lights
+East Graceburgh, NC 05113"
+8.19	628.49	A	A5	Sr. Business Analyst	10+ years	MORTGAGE	87000	Source Verified	Nov-14	Fully Paid	debt_consolidation	Debt consolidation	15.32	Mar-00	15	0	26330	56.1	29	w	INDIVIDUAL	6	0	"955 Tapia Circles Apt. 754
+Port Antonio, IN 48052"
+18.75	482.2	D	D3	Medtronic, Inc.	10+ years	RENT	71000	Source Verified	May-13	Fully Paid	other	Consolidation Loan	29.54	Apr-98	9	0	30464	72.4	35	f	INDIVIDUAL	4	0	"19223 Laurie Causeway Apt. 914
+Barryton, MO 48052"
+12.29	153.43	C	C1	Stocker	5 years	RENT	29400	Not Verified	Feb-15	Fully Paid	credit_card	Credit card refinancing	29.63	Jul-07	12	0	10112	65.7	17	w	INDIVIDUAL	0	0	"054 Adam Mission Suite 172
+South Mitchell, WI 70466"
+6.03	91.31	A	A1	American Heart Association	1 year	OWN	64000	Source Verified	Oct-11	Fully Paid	credit_card	Consolidate debt	3.81	Apr-02	6	0	4912	13.4	18	f	INDIVIDUAL		0	"2722 Smith Branch Suite 131
+Shaunbury, NH 22690"
+12.29	667.06	C	C1	Senior Software Engineer	3 years	RENT	95000	Source Verified	Jun-15	Fully Paid	debt_consolidation	Debt consolidation	11.82	Oct-07	11	0	16498	54.1	17	f	INDIVIDUAL	0	0	"USNV Trujillo
+FPO AA 30723"
+14.99	441.06	C	C5	dealer	10+ years	RENT	43000	Not Verified	Jun-14	Fully Paid	debt_consolidation	Debt consolidation	28.8	Jun-04	10	0	10264	71.3	16	w	INDIVIDUAL	0	0	"85164 Michael Overpass Suite 653
+Lancechester, SD 30723"
+13.11	181.39	B	B4			RENT	34000	Verified	May-13	Fully Paid	credit_card	Pay Off Credit Card	26.12	Apr-98	9	1	14998	88.7	20	f	INDIVIDUAL	5	1	"23617 Michael Viaduct
+West John, MS 05113"
+16.78	115.52	C	C5			RENT	22500	Verified	Aug-13	Charged Off	debt_consolidation	Cover	18.76	Jun-09	7	0	7587	54.6	7	f	INDIVIDUAL	0	0	"361 Erica Forest
+Lake Mariaton, TN 30723"
+13.67	510.27	B	B5	facility technician	10+ years	MORTGAGE	90000	Not Verified	Oct-13	Fully Paid	debt_consolidation	Making a difference	21.44	May-97	10	0	4707	52.3	40	w	INDIVIDUAL	2	0	"974 Wood Squares
+West Stevenfurt, KS 05113"
+13.35	507.95	C	C2	Housekeeper	7 years	RENT	52000	Verified	Jun-14	Fully Paid	credit_card	Credit card refinancing	11.68	Jul-06	13	0	18391	60.7	21	w	INDIVIDUAL	0	0	"76019 Young Motorway Suite 134
+New Heatherland, DE 00813"
+13.98	369.02	C	C3	Shift Supervisor	4 years	RENT	51840	Source Verified	Oct-14	Fully Paid	credit_card	Credit card refinancing	25.6	Sep-03	11	0	15727	82.8	22	w	INDIVIDUAL	1	0	"PSC 5108, Box 2953
+APO AP 05113"
+16.99	869.66	D	D1		4 years	MORTGAGE	130000	Verified	Feb-14	Fully Paid	debt_consolidation	Debt consolidation	14.03	Aug-92	10	0	34130	53.8	27	f	INDIVIDUAL	10	0	"8268 Reed Gardens Suite 996
+East Johnmouth, ND 05113"
+19.91	312.04	E	E4	American Airlines	10+ years	RENT	52000	Verified	Dec-11	Charged Off	debt_consolidation	Debt Consalidation	20.7	Dec-88	10	0	29178	87.6	16	f	INDIVIDUAL		0	"5836 Garcia Falls Apt. 525
+Matthewtown, CT 22690"
+17.86	531.67	D	D5	laborer	2 years	MORTGAGE	80000	Source Verified	Dec-15	Fully Paid	debt_consolidation	Debt consolidation	15.67	Feb-02	15	0	4189	13	35	w	INDIVIDUAL	1	0	"419 James Branch
+Johnsonmouth, WY 70466"
+12.12	279.49	B	B3	Vegas.com	10+ years	RENT	120000	Verified	Mar-13	Fully Paid	debt_consolidation	Debt consolidation	29.56	Jan-92	11	0	28739	71.3	34	f	INDIVIDUAL	6	0	"976 Smith Bridge
+West Michael, NE 30723"
+16.29	292.45	D	D2	labor	10+ years	RENT	30000	Source Verified	Oct-14	Fully Paid	debt_consolidation	Debt consolidation	13.73	Aug-01	6	0	2975	51.3	15	w	INDIVIDUAL	1	0	"0062 Stephanie Well Suite 269
+Riveratown, TX 48052"
+21.49	254.12	D	D5	Home attendant 	< 1 year	RENT	21000	Verified	Jun-16	Fully Paid	debt_consolidation	Debt consolidation	10.86	Dec-10	15	0	5832	14.7	21	w	INDIVIDUAL	0	0	"PSC 7168, Box 4065
+APO AA 22690"
+12.99	539.03	B	B5	Payroll Manager	10+ years	MORTGAGE	78000	Source Verified	Mar-14	Fully Paid	debt_consolidation	Debt consolidation	23.31	Oct-99	15	0	18863	75.2	23	f	INDIVIDUAL	2	0	"62323 Christopher Forges Apt. 968
+Cindyview, RI 00813"
+13.67	680.36	B	B5	Litigation Paralegal	10+ years	MORTGAGE	64000	Verified	Nov-13	Fully Paid	debt_consolidation	Thank you for your help!	21.91	Sep-04	18	0	28236	51.3	37	w	INDIVIDUAL	3	0	"57769 John Via Suite 037
+Stephaniehaven, AR 48052"
+18.54	411.01	E	E1	Accountant	3 years	RENT	40000	Source Verified	Dec-14	Charged Off	debt_consolidation	Debt consolidation	37.26	Sep-03	16	0	13179	55.6	20	w	INDIVIDUAL	0	0	"76010 Houston Haven
+Port Keithburgh, MI 86630"
+7.89	469.29	A	A5			MORTGAGE	90000	Verified	Apr-16	Fully Paid	debt_consolidation	Debt consolidation	11.75	Aug-94	7	0	8205	93.2	18	w	INDIVIDUAL	6	0	"84009 David Stream
+South Nicolehaven, IL 05113"
+17.1	459.67	C	C5	Cracker Barrel Old Country Store	8 years	OWN	58000	Not Verified	Sep-13	Fully Paid	medical	Medical expenses	16.88	Jul-03	11	0	11417	54.1	16	f	INDIVIDUAL	0	0	"70807 Elizabeth Vista Apt. 384
+Garciaville, CO 29597"
+18.25	382.95	D	D3	Rn	8 years	MORTGAGE	75000	Source Verified	May-16	Fully Paid	debt_consolidation	Debt consolidation	24.43	Apr-95	18	0	41310	59.6	23	w	INDIVIDUAL	2	0	"51321 Joshua Villages Suite 660
+West Amandaside, AR 05113"
+11.67	264.46	B	B4	Client Support Specialist	9 years	OWN	55000	Source Verified	Oct-14	Fully Paid	debt_consolidation	Debt consolidation	25.35	Apr-00	15	0	6725	21.2	36	w	INDIVIDUAL	4	0	"71523 Jamie Cove Suite 930
+North Barbara, LA 05113"
+6.24	427.44	A	A2	Branch Manager	2 years	MORTGAGE	100000	Not Verified	Jul-15	Fully Paid	debt_consolidation	Debt consolidation	19.01	Jan-99	11	0	31612	71.5	29	w	INDIVIDUAL	3	0	"655 Lawrence Ville Apt. 951
+West Coleland, MO 05113"
+8.18	244.36	B	B1	clinical therapist	7 years	MORTGAGE	60000	Source Verified	Apr-15	Charged Off	debt_consolidation	Debt consolidation	20.34	Feb-02	7	0	21750	59.9	20	w	INDIVIDUAL	1	0	"78275 Rodriguez Square
+Hallchester, AZ 30723"
+13.98	512.52	C	C3	Armored Car Guard	3 years	OWN	40000	Not Verified	Oct-14	Fully Paid	debt_consolidation	Debt consolidation	14.55	Jan-06	4	1	9207	51.7	9	w	INDIVIDUAL	0	1	"6360 Claire Motorway
+East Shannonchester, AL 05113"
+12.35	400.59	B	B4	MCSO	6 years	MORTGAGE	38000	Not Verified	Jul-13	Fully Paid	credit_card	Credit card refinancing	10.67	Dec-04	10	0	9537	62.3	14	f	INDIVIDUAL	2	0	"5100 Cantu Burg Apt. 409
+Adamland, PA 48052"
+14.16	1198.94	C	C2	Administrator	9 years	MORTGAGE	118497.84	Verified	Mar-14	Fully Paid	debt_consolidation	Debt consolidation	10.37	Jun-95	8	0	8148	83.1	59	f	INDIVIDUAL	3	0	"578 Smith View Suite 106
+Miguelfort, IN 29597"
+17.56	359.33	D	D1			MORTGAGE	32000	Verified	Jul-13	Fully Paid	debt_consolidation	debt consolidation	9.83	Sep-06	6	0	11615	82.4	7	w	INDIVIDUAL	0	0	"965 Spencer Courts
+Pacetown, AZ 00813"
+18.55	385.41	E	E2	Field Biologist	3 years	RENT	50000	Verified	Jul-15	Fully Paid	other	Other	4.22	Dec-03	6	0	8912	47.9	23	f	INDIVIDUAL	3	0	"230 Denise Vista
+Carterville, NY 30723"
+12.35	300.44	B	B4	salt lake city school district	7 years	MORTGAGE	59500	Not Verified	Aug-13	Fully Paid	credit_card	Credit card refinancing	16.98	Jul-94	9	0	25515	91.1	35	f	INDIVIDUAL	4	0	"199 David Lane
+South Virginiaberg, ND 70466"
+22.15	692.61	E	E5	Rural Letter Carrier	10+ years	MORTGAGE	80000	Source Verified	Aug-14	Fully Paid	home_improvement	Home improvement	11.36	Oct-90	13	0	20395	74.4	41	f	INDIVIDUAL	4	0	"0676 Kaiser Bypass
+Singhburgh, SD 22690"
+10.39	118.45	B	B4	self	10+ years	RENT	66000	Not Verified	May-08	Fully Paid	medical	Dental Work	1.56	Dec-01	12	0	15807	20	17	f	INDIVIDUAL		0	"USS Goodman
+FPO AE 22690"
+7.9	625.81	A	A4	Sr Social Worker	9 years	RENT	76000	Verified	Nov-13	Fully Paid	debt_consolidation	Dept Consolodation/Home Improvement	5.27	Apr-99	10	0	11492	37.4	19	w	INDIVIDUAL	0	0	"973 Carlos Junctions Suite 840
+Reneechester, NC 00813"
+15.99	243.13	D	D2	Truck driver	5 years	RENT	60000	Source Verified	Jan-15	Fully Paid	credit_card	Credit card refinancing	11.78	Dec-01	8	0	9197	73	14	w	INDIVIDUAL	2	0	"5723 Kane Skyway Apt. 920
+New Oliviachester, IA 00813"
+16.07	351.94	D	D5	Taylor Public Schools	10+ years	RENT	61000	Verified	Mar-10	Fully Paid	debt_consolidation	Want to be debt free in "3"	17.51	Feb-95	11	0	13834	65.4	19	f	INDIVIDUAL		0	"3109 Rachel Shores Suite 682
+Port Andreaside, AK 05113"
+24.99	468.8	F	F4	carrier	5 years	MORTGAGE	47000	Verified	Dec-15	Fully Paid	debt_consolidation	Debt consolidation	2.4	May-03	10	0	2049	58.5	23	w	INDIVIDUAL	1	0	"59681 Christopher Lock
+North Williamtown, UT 70466"
+14.99	285.42	C	C5	Attorney	1 year	MORTGAGE	128000	Verified	Nov-14	Fully Paid	debt_consolidation	Debt consolidation	13.95	Oct-02	8	0	7939	42.5	21	w	INDIVIDUAL	2	0	"88359 Howard Landing Apt. 565
+Rodriguezton, NE 48052"
+9.67	317.92	B	B1	Bartender	3 years	RENT	40000	Verified	Dec-13	Fully Paid	credit_card	Moving Forward	19.85	Sep-03	8	0	13398	63	12	f	INDIVIDUAL	0	0	"68278 Henderson Junction Suite 802
+Port Georgetown, OK 29597"
+15.61	117.14	D	D1	Administrative Assistant	10+ years	MORTGAGE	52000	Not Verified	Oct-14	Charged Off	debt_consolidation	Debt consolidation	4.34	Mar-04	4	0	787	34.2	9	w	INDIVIDUAL	1	0	"97848 Roman Circles Suite 098
+New Claudiafort, RI 48052"
+19.19	442.77	E	E3	Bookkeeper	2 years	RENT	50000	Source Verified	Jul-15	Fully Paid	small_business	Business	16.72	Aug-03	14	0	14014	46.7	21	w	INDIVIDUAL	0	0	"308 Silva Centers Suite 208
+West Davidview, WI 48052"
+8.39	202.5	A	A5	Office Administrator	3 years	RENT	33000	Not Verified	Jun-14	Fully Paid	debt_consolidation	Debt consolidation	9.43	Oct-00	13	0	6437	26.9	30	w	INDIVIDUAL	0	0	"5012 Carter Lock Apt. 045
+North Robertberg, NE 30723"
+21	271.27	E	E2	Roofers Local 195	5 years	RENT	30000	Not Verified	May-13	Charged Off	credit_card	Bills	12.8	Nov-04	8	0	8436	86.1	13	f	INDIVIDUAL	0	0	"00014 Rocha Walk
+Jacksonstad, MD 93700"
+12.69	250.75	C	C2	Cleric II	< 1 year	RENT	33000	Verified	Apr-15	Fully Paid	debt_consolidation	Debt consolidation	15.82	Mar-10	20	0	4041	35.8	30	f	INDIVIDUAL	0	0	"1200 Hines Mountains Apt. 494
+West Tiffany, MA 70466"
+13.98	341.68	C	C3	Executive Manager	10+ years	MORTGAGE	55200	Not Verified	Jun-14	Fully Paid	credit_card	Credit card refinancing	23.37	Mar-96	13	0	24493	62.3	27	w	INDIVIDUAL	3	0	"4798 Monica Lock Suite 925
+North Michelleberg, SD 00813"
+10.74	430.53	B	B2	Brookdale University Hospital	1 year	RENT	45000	Source Verified	Mar-12	Fully Paid	debt_consolidation	Honost Consolidation	12.8	May-94	8	0	10665	75.6	10	f	INDIVIDUAL	0	0	"1741 Jackson Street Suite 615
+New Jenny, MA 70466"
+6.68	583.89	A	A3	owner	10+ years	OWN	80000	Not Verified	Mar-15	Fully Paid	debt_consolidation	Debt consolidation	24.63	Jun-96	16	0	26650	49.7	56	f	INDIVIDUAL	6	0	"44296 Victor Plaza Apt. 108
+Kimhaven, NM 30723"
+19.22	293.2	D	D4	Global Account Director	1 year	RENT	135000	Verified	Dec-13	Fully Paid	debt_consolidation	Debt consolidation	10.68	Nov-86	13	0	4944	58.2	26	f	INDIVIDUAL	6	0	"55921 Dean Inlet Suite 937
+New Diane, IL 22690"
+11.49	391.38	B	B4	Dekalb County Fire Rescue	4 years	MORTGAGE	95000	Source Verified	Sep-11	Charged Off	wedding	home expenses	15.63	Jan-01	8	0	27917	77.5	26	f	INDIVIDUAL		0	"6651 Diana Freeway Suite 777
+Leahton, WA 70466"
+17.27	824.94	C	C5	Medtronic	9 years	MORTGAGE	92000	Verified	Mar-13	Fully Paid	debt_consolidation	Pay the Bills	28.7	Apr-00	12	0	32332	92.6	24	f	INDIVIDUAL	1	0	"43848 Lee Spurs
+Mcclainshire, IL 29597"
+12.12	632.17	B	B3	Broward Sheriff Office	8 years	RENT	48000	Source Verified	Jul-12	Fully Paid	debt_consolidation	Debt Loan	29.76	Jun-94	12	0	30071	46.5	28	f	INDIVIDUAL	0	0	"58673 Foster Freeway
+Port Meredithville, NY 22690"
+16.99	356.48	D	D1	CNA/QMA	7 years	OWN	40000	Not Verified	Jan-14	Charged Off	debt_consolidation	Debt consolidation	14.34	May-03	8	0	7680	64	18	f	INDIVIDUAL	0	0	"519 Dillon Lights Suite 839
+Meghanstad, HI 48052"
+16.55	285.21	D	D2	CNA	4 years	RENT	29500	Not Verified	Mar-15	Charged Off	debt_consolidation	Debt consolidation	28.23	Jan-02	9	0	3327	39.6	12	w	INDIVIDUAL	0	0	"610 Joshua Haven Suite 591
+Johnsonside, MN 70466"
+15.61	314.69	D	D1	Program Manager	6 years	RENT	80000	Source Verified	Mar-15	Fully Paid	car	Car financing	15.51	Sep-94	10	0	6554	76.2	26	f	INDIVIDUAL	0	0	"41919 Philip Walk Apt. 811
+Ramosmouth, OH 29597"
+19.97	267.47	D	D5	Ultrasound Technologist	6 years	RENT	72000	Not Verified	Feb-14	Charged Off	moving	Moving and relocation	15.28	Mar-01	19	0	7176	20.9	43	f	INDIVIDUAL	0	0	"5740 Aaron Mountains Suite 747
+Samanthaview, MT 22690"
+7.89	175.2	A	A5	Mate	5 years	MORTGAGE	63000	Verified	Jun-16	Fully Paid	credit_card	Credit card refinancing	3.2	Sep-12	5	0	5066	46.9	8	f	INDIVIDUAL	1	0	"7762 Leslie Dale
+Cynthiaville, NJ 70466"
+18.25	362.78	D	D3	Lead Technician level 4 	3 years	RENT	39000	Not Verified	Jan-14	Fully Paid	house	Home buying	28.83	Apr-06	20	0	5540	56.5	26	f	INDIVIDUAL	0	0	"006 Bryan Parks
+Kennedyview, CO 22690"
+24.7	875.28	G	G1	Medtronic	5 years	MORTGAGE	187321	Verified	Jul-12	Fully Paid	debt_consolidation	Debt Consolidation	21.03	Oct-02	21	0	54810	93.4	52	f	INDIVIDUAL	3	0	"25281 Kevin Neck
+Armstrongton, TN 29597"
+13.49	319.8	C	C1	beach house mkt inc	8 years	RENT	45000	Not Verified	Dec-11	Fully Paid	credit_card	credit card refinance loan	15.71	Dec-01	12	0	15116	81.3	31	f	INDIVIDUAL		0	"983 Young Causeway Suite 575
+Fostermouth, KS 30723"
+8.39	724.89	A	A5	Controller	10+ years	MORTGAGE	80000	Source Verified	Jul-14	Fully Paid	debt_consolidation	Debt consolidation	14.49	May-98	15	0	51791	73.9	34	f	INDIVIDUAL	2	0	"805 Scott Mountain
+Port Connie, DC 00813"
+10.99	589.22	B	B2	Sales Manager	4 years	MORTGAGE	90000	Source Verified	Oct-13	Fully Paid	debt_consolidation	Moving Payoff	17.43	Dec-02	9	0	12038	64.7	16	f	INDIVIDUAL	1	0	"03377 Russell Crescent Suite 154
+Port Derekton, DE 00813"
+18.24	771.47	D	D5			MORTGAGE	65800	Verified	Aug-14	Charged Off	debt_consolidation	Debt consolidation	23.87	Mar-99	11	0	14390	69.5	31	w	INDIVIDUAL	1	0	"493 Michael Route
+Hillfurt, AZ 70466"
+7.9	93.88	A	A4	PA Leadership Charter School	< 1 year	RENT	39000	Source Verified	Sep-11	Fully Paid	small_business	Small Business Loan - Gourmet Food Truck	14.86	Nov-03	11	0	1865	26.2	13	f	INDIVIDUAL		0	"USCGC Hamilton
+FPO AA 48052"
+10.99	163.67	B	B2	Electrician	7 years	RENT	52000	Not Verified	Jan-14	Fully Paid	debt_consolidation	Debt consolidation	16.27	Oct-05	11	0	9855	27.3	19	f	INDIVIDUAL	0	0	"9561 Villa Coves
+Haleyfurt, DE 05113"
+13.33	135.42	C	C3	technician	10+ years	MORTGAGE	75000	Not Verified	Oct-15	Fully Paid	debt_consolidation	Debt consolidation	5.34	May-90	9	0	12663	86	16	f	INDIVIDUAL	0	0	"6755 Wright Shore
+Monicatown, NV 70466"
+16.49	1061.99	D	D3	Sergeant Major	10+ years	RENT	101000	Verified	Nov-14	Fully Paid	debt_consolidation	Debt consolidation	15.76	Jun-03	7	1	6080	76	15	f	INDIVIDUAL	2	1	"2528 Herrera Track Suite 897
+Savannahburgh, NY 70466"
+25.78	376.36	F	F5	Nursing Assistant	7 years	MORTGAGE	43000	Verified	Jul-15	Fully Paid	credit_card	Credit card refinancing	33.88	Aug-03	18	0	19993	55.7	31	w	INDIVIDUAL	1	0	"522 Melissa Village
+East Janice, MT 00813"
+25.83	399.86	G	G2	DESIGNER	10+ years	MORTGAGE	56000	Verified	Nov-14	Charged Off	debt_consolidation	Debt consolidation	28.05	Jun-01	23	0	28845	84.5	44	w	INDIVIDUAL	6	0	"0326 Jacob Via
+Jacksonstad, MI 93700"
+18.64	624.27	E	E1	Keystone Automotive Operations	10+ years	MORTGAGE	46200	Verified	Dec-11	Fully Paid	debt_consolidation	consolidation loan	21.32	Jan-98	9	0	18894	90	22	f	INDIVIDUAL		0	"7371 Holland Circles Suite 244
+Gibsonport, WV 48052"
