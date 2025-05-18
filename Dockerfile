@@ -9,8 +9,11 @@ RUN pip install --no-cache-dir -r requirements.txt
 # Copy the rest of the application
 COPY . .
 
+# Run training script to generate model.pkl
+RUN python train_model.py
+
 # Expose the port the app runs on
 EXPOSE 8080
 
 # Command to run the application
-CMD ["uvicorn", "app:app", "--host", "0.0.0.0", "--port", "8080"] 
+CMD ["uvicorn", "app:app", "--host", "0.0.0.0", "--port", "8080"]
