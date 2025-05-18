@@ -1,5 +1,19 @@
 steps:
-# Build the container image
+# Step 1: Download the dataset from GCS
+# USER: Replace 'your-gcs-bucket-name' and 'path/to/your/logistic_regression.csv'
+# with your actual GCS bucket name and the path to the CSV file in the bucket.
+- name: 'gcr.io/cloud-builders/gsutil'
+  args: ['cp', 'gs://your-gcs-bucket-name/path/to/your/logistic_regression.csv', 'logistic_regression.csv']
+
+# Step 2: Run the training script to generate model.pkl
+# This uses a python image to run the script. Ensure your train_model.py
+# saves model.pkl and preprocessor.pkl in the current directory.
+- name: 'python:3.9-slim' # Using a python image that matches your Dockerfile base
+  entrypoint: 'python'
+  args: ['train_model.py']
+
+# Step 3: Build the container image
+# This step will now include model.pkl and preprocessor.pkl generated above.
 - name: 'gcr.io/cloud-builders/docker'
   args: ['build', '-t', 'gcr.io/$PROJECT_ID/loantap-api', '.']
 
@@ -23,9 +37,7 @@ steps:
   - '--allow-unauthenticated'
 
 images:
-- 'gcr.io/$PROJECT_ID/loantap-api' 
+- 'gcr.io/$PROJECT_ID/loantap-api'
 
-logsBucket: 'gs://loantap-data-storage' # Option B: Specify your GCS bucket
-# You might also need to specify options for logging if just logsBucket isn't enough
-# options:
-#   logging: GCS_ONLY # If you only want logs in GCS
+options:
+  logging: CLOUD_LOGGING_ONLY
