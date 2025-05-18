@@ -24,3 +24,8 @@ steps:
 
 images:
 - 'gcr.io/$PROJECT_ID/loantap-api' 
+
+logsBucket: 'gs://loantap-data-storage' # Option B: Specify your GCS bucket
+# You might also need to specify options for logging if just logsBucket isn't enough
+# options:
+#   logging: GCS_ONLY # If you only want logs in GCS
