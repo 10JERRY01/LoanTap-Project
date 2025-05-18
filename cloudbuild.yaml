@@ -1,9 +1,8 @@
 steps:
 # Step 1: Download the dataset from GCS
-# USER: Replace 'your-gcs-bucket-name' and 'path/to/your/logistic_regression.csv'
-# with your actual GCS bucket name and the path to the CSV file in the bucket.
+# Dataset is in 'loantap-data-storage' bucket.
 - name: 'gcr.io/cloud-builders/gsutil'
-  args: ['cp', 'gs://your-gcs-bucket-name/path/to/your/logistic_regression.csv', 'logistic_regression.csv']
+  args: ['cp', 'gs://loantap-data-storage/logistic_regression.csv', 'logistic_regression.csv']
 
 # Step 2: Run the training script to generate model.pkl
 # This uses a python image to run the script. Ensure your train_model.py
