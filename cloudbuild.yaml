@@ -4,12 +4,16 @@ steps:
 - name: 'gcr.io/cloud-builders/gsutil'
   args: ['cp', 'gs://loantap-data-storage/logistic_regression.csv', 'logistic_regression.csv']
 
-# Step 2: Run the training script to generate model.pkl
+# Step 2: Install dependencies and run the training script to generate model.pkl
 # This uses a python image to run the script. Ensure your train_model.py
 # saves model.pkl and preprocessor.pkl in the current directory.
 - name: 'python:3.9-slim' # Using a python image that matches your Dockerfile base
-  entrypoint: 'python'
-  args: ['train_model.py']
+  entrypoint: 'bash' # Use bash to run multiple commands
+  args:
+  - '-c'
+  - |
+    pip install --no-cache-dir -r requirements.txt
+    python train_model.py
 
 # Step 3: Build the container image
 # This step will now include model.pkl and preprocessor.pkl generated above.
