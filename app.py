@@ -58,6 +58,10 @@ class LoanApplication(BaseModel):
     mort_acc: int
     pub_rec_bankruptcies: int
     address: str
+    # Added fields based on error: "['purpose', 'initial_list_status', 'application_type'] not in index"
+    purpose: Optional[str] = "debt_consolidation" # Assuming str, added default
+    initial_list_status: Optional[str] = "w" # Assuming str, added default (w or f)
+    application_type: Optional[str] = "Individual" # Assuming str, added default
 
     class Config:
         schema_extra = {
@@ -81,7 +85,10 @@ class LoanApplication(BaseModel):
                 "total_acc": 10,
                 "mort_acc": 1,
                 "pub_rec_bankruptcies": 0,
-                "address": "123 Main St, CA"
+                "address": "123 Main St, CA",
+                "purpose": "debt_consolidation",
+                "initial_list_status": "w",
+                "application_type": "Individual"
             }
         }
 

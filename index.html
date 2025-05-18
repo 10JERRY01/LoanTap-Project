@@ -131,6 +131,19 @@
                     <label for="address">Address (e.g., "123 Main St, Anytown, CA 90210"):</label>
                     <input type="text" id="address" name="address" value="123 Main St, Anytown, CA 90210" required>
                 </div>
+                <!-- New fields added based on server error -->
+                <div class="form-group">
+                    <label for="purpose">Purpose (e.g., debt_consolidation):</label>
+                    <input type="text" id="purpose" name="purpose" value="debt_consolidation">
+                </div>
+                <div class="form-group">
+                    <label for="initial_list_status">Initial List Status (w or f):</label>
+                    <input type="text" id="initial_list_status" name="initial_list_status" value="w">
+                </div>
+                <div class="form-group">
+                    <label for="application_type">Application Type (e.g., Individual):</label>
+                    <input type="text" id="application_type" name="application_type" value="Individual">
+                </div>
             </div>
             <button type="submit">Predict</button>
         </form>
@@ -157,9 +170,10 @@
             const data = {};
             formData.forEach((value, key) => {
                 // Convert numeric fields from string to number
-                const numFields = ['loan_amnt', 'int_rate', 'installment', 'annual_inc', 'dti', 
-                                   'open_acc', 'pub_rec', 'revol_bal', 'revol_util', 
+                const numFields = ['loan_amnt', 'int_rate', 'installment', 'annual_inc', 'dti',
+                                   'open_acc', 'pub_rec', 'revol_bal', 'revol_util',
                                    'total_acc', 'mort_acc', 'pub_rec_bankruptcies'];
+                // All other fields (including new ones: purpose, initial_list_status, application_type) will be strings
                 if (numFields.includes(key)) {
                     data[key] = parseFloat(value);
                 } else {
