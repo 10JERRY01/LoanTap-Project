@@ -1,4 +1,5 @@
 from fastapi import FastAPI, HTTPException
+from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
 import pandas as pd
 import joblib
@@ -7,6 +8,19 @@ from typing import Optional
 import os
 
 app = FastAPI(title="LoanTap Default Prediction API")
+
+# CORS Middleware
+# Allows all origins, all methods, all headers for simplicity.
+# For production, you might want to restrict origins.
+origins = ["*"] # Or specify your frontend's origin e.g., "http://localhost:xxxx", "null" (for file://)
+
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"],
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
 
 # Load the model and preprocessor
 try:
@@ -148,4 +162,4 @@ async def predict(loan_application: LoanApplication):
 
 if __name__ == "__main__":
     import uvicorn
-    uvicorn.run(app, host="0.0.0.0", port=8080) 
+    uvicorn.run(app, host="0.0.0.0", port=8080)

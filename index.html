@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LoanTap Prediction Interface</title>
+    <style>
+        body { font-family: sans-serif; margin: 20px; background-color: #f4f4f4; }
+        .container { background-color: #fff; padding: 20px; border-radius: 8px; box-shadow: 0 0 10px rgba(0,0,0,0.1); }
+        h1 { color: #333; text-align: center; }
+        label { display: block; margin-top: 10px; color: #555; }
+        input[type="text"], input[type="number"], select {
+            width: calc(100% - 22px);
+            padding: 10px;
+            margin-top: 5px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+        button {
+            background-color: #007bff;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;
+            margin-top: 20px;
+            display: block;
+            width: 100%;
+        }
+        button:hover { background-color: #0056b3; }
+        #result { margin-top: 20px; padding: 15px; border: 1px solid #eee; border-radius: 4px; background-color: #e9ecef; }
+        .form-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px; }
+        .form-group { display: flex; flex-direction: column; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Loan Default Prediction</h1>
+        <form id="loanForm">
+            <div class="form-grid">
+                <div class="form-group">
+                    <label for="loan_amnt">Loan Amount:</label>
+                    <input type="number" id="loan_amnt" name="loan_amnt" value="10000" required>
+                </div>
+                <div class="form-group">
+                    <label for="term">Term (e.g., "36 months"):</label>
+                    <input type="text" id="term" name="term" value="36 months" required>
+                </div>
+                <div class="form-group">
+                    <label for="int_rate">Interest Rate (%):</label>
+                    <input type="number" step="0.01" id="int_rate" name="int_rate" value="10.5" required>
+                </div>
+                <div class="form-group">
+                    <label for="installment">Installment:</label>
+                    <input type="number" step="0.01" id="installment" name="installment" value="325.0" required>
+                </div>
+                <div class="form-group">
+                    <label for="grade">Grade (A-G):</label>
+                    <input type="text" id="grade" name="grade" value="B" required>
+                </div>
+                <div class="form-group">
+                    <label for="emp_title">Employment Title:</label>
+                    <input type="text" id="emp_title" name="emp_title" value="Software Engineer" required>
+                </div>
+                <div class="form-group">
+                    <label for="emp_length">Employment Length (e.g., "5 years", "10+ years", "< 1 year"):</label>
+                    <input type="text" id="emp_length" name="emp_length" value="5 years" required>
+                </div>
+                <div class="form-group">
+                    <label for="home_ownership">Home Ownership:</label>
+                    <select id="home_ownership" name="home_ownership" required>
+                        <option value="MORTGAGE" selected>MORTGAGE</option>
+                        <option value="RENT">RENT</option>
+                        <option value="OWN">OWN</option>
+                        <option value="OTHER">OTHER</option>
+                        <option value="NONE">NONE</option>
+                        <option value="ANY">ANY</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="annual_inc">Annual Income:</label>
+                    <input type="number" id="annual_inc" name="annual_inc" value="75000" required>
+                </div>
+                <div class="form-group">
+                    <label for="verification_status">Verification Status:</label>
+                     <select id="verification_status" name="verification_status" required>
+                        <option value="Verified" selected>Verified</option>
+                        <option value="Source Verified">Source Verified</option>
+                        <option value="Not Verified">Not Verified</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="dti">Debt-to-Income Ratio:</label>
+                    <input type="number" step="0.01" id="dti" name="dti" value="15.5" required>
+                </div>
+                <div class="form-group">
+                    <label for="earliest_cr_line">Earliest Credit Line (YYYY-MM-DD):</label>
+                    <input type="text" id="earliest_cr_line" name="earliest_cr_line" value="2010-01-01" placeholder="YYYY-MM-DD" required>
+                </div>
+                <div class="form-group">
+                    <label for="open_acc">Open Accounts:</label>
+                    <input type="number" id="open_acc" name="open_acc" value="5" required>
+                </div>
+                <div class="form-group">
+                    <label for="pub_rec">Public Records:</label>
+                    <input type="number" id="pub_rec" name="pub_rec" value="0" required>
+                </div>
+                <div class="form-group">
+                    <label for="revol_bal">Revolving Balance:</label>
+                    <input type="number" id="revol_bal" name="revol_bal" value="5000" required>
+                </div>
+                <div class="form-group">
+                    <label for="revol_util">Revolving Utilization (%):</label>
+                    <input type="number" step="0.01" id="revol_util" name="revol_util" value="30.5" required>
+                </div>
+                <div class="form-group">
+                    <label for="total_acc">Total Accounts:</label>
+                    <input type="number" id="total_acc" name="total_acc" value="10" required>
+                </div>
+                <div class="form-group">
+                    <label for="mort_acc">Mortgage Accounts:</label>
+                    <input type="number" id="mort_acc" name="mort_acc" value="1" required>
+                </div>
+                <div class="form-group">
+                    <label for="pub_rec_bankruptcies">Public Record Bankruptcies:</label>
+                    <input type="number" id="pub_rec_bankruptcies" name="pub_rec_bankruptcies" value="0" required>
+                </div>
+                <div class="form-group">
+                    <label for="address">Address (e.g., "123 Main St, Anytown, CA 90210"):</label>
+                    <input type="text" id="address" name="address" value="123 Main St, Anytown, CA 90210" required>
+                </div>
+            </div>
+            <button type="submit">Predict</button>
+        </form>
+        <div id="result">
+            <p>Prediction results will appear here.</p>
+        </div>
+    </div>
+
+    <script>
+        document.getElementById('loanForm').addEventListener('submit', async function(event) {
+            event.preventDefault();
+
+            // IMPORTANT: Replace with your deployed Cloud Run API URL
+            const apiUrl = 'https://loantap-api-199671913622.us-central1.run.app/predict'; 
+            // Example: const apiUrl = 'https://loantap-api-xyz-uc.a.run.app/predict';
+
+            if (apiUrl === 'YOUR_CLOUD_RUN_API_URL_HERE/predict') {
+                document.getElementById('result').innerHTML = 
+                    '<p style="color: red;"><strong>Error:</strong> Please set your API URL in the script section of this HTML file.</p>';
+                return;
+            }
+
+            const formData = new FormData(event.target);
+            const data = {};
+            formData.forEach((value, key) => {
+                // Convert numeric fields from string to number
+                const numFields = ['loan_amnt', 'int_rate', 'installment', 'annual_inc', 'dti', 
+                                   'open_acc', 'pub_rec', 'revol_bal', 'revol_util', 
+                                   'total_acc', 'mort_acc', 'pub_rec_bankruptcies'];
+                if (numFields.includes(key)) {
+                    data[key] = parseFloat(value);
+                } else {
+                    data[key] = value;
+                }
+            });
+
+            const resultDiv = document.getElementById('result');
+            resultDiv.innerHTML = '<p>Loading...</p>';
+
+            try {
+                const response = await fetch(apiUrl, {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify(data)
+                });
+
+                if (!response.ok) {
+                    const errorData = await response.json().catch(() => ({ detail: 'Unknown error occurred' }));
+                    throw new Error(`HTTP error! status: ${response.status}, Message: ${errorData.detail || response.statusText}`);
+                }
+
+                const result = await response.json();
+                resultDiv.innerHTML = `
+                    <h3>Prediction Result:</h3>
+                    <p><strong>Status:</strong> ${result.prediction}</p>
+                    <p><strong>Probability of Default:</strong> ${(result.probability * 100).toFixed(2)}%</p>
+                    <p><strong>Confidence:</strong> ${(result.confidence * 100).toFixed(2)}%</p>
+                `;
+            } catch (error) {
+                console.error('Error:', error);
+                resultDiv.innerHTML = `<p style="color: red;"><strong>Error:</strong> ${error.message}</p>`;
+            }
+        });
+    </script>
+</body>
+</html>
